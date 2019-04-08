@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansStreamsAPI.Console", "OrleansStreamsAPI.Console\OrleansStreamsAPI.Console.csproj", "{A1844B7C-4146-41F2-ABA0-3F6EBF07DB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansStreams.Silo", "OrleansStreams.Silo\OrleansStreams.Silo.csproj", "{7E134741-7AE5-4C29-9F06-D41F569C590D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansStreams.GrainInterfaces", "OrleansStreams.GrainInterfaces\OrleansStreams.GrainInterfaces.csproj", "{F299587A-0786-47D5-B3AC-3A5BFE8CFFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansStreams.Grains", "OrleansStreams.Grains\OrleansStreams.Grains.csproj", "{4556B8DB-A769-4AF6-83BE-F69E4015C31A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansStreams.Shared", "OrleansStreams.Shared\OrleansStreams.Shared.csproj", "{FE9CA574-23F4-4822-8BB3-0D5A4E570F14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1844B7C-4146-41F2-ABA0-3F6EBF07DB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1844B7C-4146-41F2-ABA0-3F6EBF07DB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1844B7C-4146-41F2-ABA0-3F6EBF07DB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1844B7C-4146-41F2-ABA0-3F6EBF07DB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E134741-7AE5-4C29-9F06-D41F569C590D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E134741-7AE5-4C29-9F06-D41F569C590D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E134741-7AE5-4C29-9F06-D41F569C590D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E134741-7AE5-4C29-9F06-D41F569C590D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F299587A-0786-47D5-B3AC-3A5BFE8CFFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F299587A-0786-47D5-B3AC-3A5BFE8CFFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F299587A-0786-47D5-B3AC-3A5BFE8CFFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F299587A-0786-47D5-B3AC-3A5BFE8CFFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4556B8DB-A769-4AF6-83BE-F69E4015C31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4556B8DB-A769-4AF6-83BE-F69E4015C31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4556B8DB-A769-4AF6-83BE-F69E4015C31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4556B8DB-A769-4AF6-83BE-F69E4015C31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9CA574-23F4-4822-8BB3-0D5A4E570F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9CA574-23F4-4822-8BB3-0D5A4E570F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9CA574-23F4-4822-8BB3-0D5A4E570F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9CA574-23F4-4822-8BB3-0D5A4E570F14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D7F7B22-2EDE-476B-8425-6EF52B25A135}
+	EndGlobalSection
+EndGlobal
